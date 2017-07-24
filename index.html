@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/queries.css">
+</head>
+<body>
+<section class="lang">
+    <div class="container">
+        <ul class="language">
+            <li><a href="#" >Eng</a></li>
+            <li><a href="#">DU</a></li>
+            <li><a href="#">PLN</a></li>
+        </ul>
+        <ul class="country">
+            <li><a href="#" >US</a></li>
+            <li><a href="#">GE</a></li>
+            <li><a href="#">PL</a></li>
+        </ul>
+    </div>
+</section>
+
+<div class="container-wrapper">
+    <section class="header">
+        <div class="container">
+            <div class="item-1">
+                <p><i class="fa fa-user"></i>Welcome,you can <strong> <a href="#">login</a></strong> or <strong><a href="#">register</a></strong></p>
+                <p><i class="fa fa-phone"></i>hotline: <strong>+ 88 987 654 321</strong></p>
+            </div>
+            <!-- item-1 -->
+
+            <div class="item-2">
+                <img src="img/logo.png" alt="logo">
+            </div>
+            <!-- item-2 -->
+            <div class="item-3">
+                <a href="#"><i class="fa fa-heart"></i>wishlist: <span>2</span></a>
+                <a href="#"><i class="fa fa-shopping-cart"></i>shopping cart: <span>$129.00</span></a>
+            </div>
+            <!-- item-3 -->
+        </div>
+    </section>
+    <!--
+    nav
+    -->
+    <section class="nav">
+     <div class="container">
+         <nav class="menu ">
+             <ul class="nav-ul active">
+                 <li><a href="#">jackets</a></li>
+                 <li><a href="#">sweaters</a></li>
+                 <li><a href="#">dresses</a></li>
+                 <li><a href="#">skirts</a></li>
+                 <li><a href="#">pants</a></li>
+                 <li><a href="#">shorts</a></li>
+                 <li><a href="#">shoes</a></li>
+                 <li><a href="#">accessories</a></li>
+             </ul>
+             <a href="#" class="logo"> <img src="img/logo.png" height="50" width="50" alt=""></a>
+             <a href="#" class="nav-toggle">&#9776;</a>
+         </nav>
+     </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <img src="img/main-1.jpg" alt="">
+            <img src="img/main-2.jpg" alt="">
+            <img src="img/main-3.jpg" alt="">
+            <img src="img/main-4.jpg" alt="">
+            <img src="img/main-5.jpg" alt="">
+
+        </div>
+    </section>
+    
+</div>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.nav-toggle').click(function () {
+            $('.nav-ul').toggleClass('active');
+        });
+    });
+</script>
+</body>
+</html>
