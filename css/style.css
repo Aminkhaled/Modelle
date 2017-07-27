@@ -544,3 +544,154 @@ Products
     content: "";
     top: 79%;
 }
+
+/*
+items-1
+*/
+.items-1 {
+    margin-top: 60px;
+}
+
+.items .item-product-5 hr:nth-child(1) {
+    width: 61px;
+    height: 1px;
+    border: 1px solid #dddddd;
+    margin-bottom: 15px;
+    position: absolute;
+    left: 8%;
+    content: "";
+    top: 84%;
+}
+
+.item-product-5 .item-hover hr:nth-of-type(2) {
+    position: absolute;
+    top: 84%;
+    left: 23.5%;
+    width: 63px;
+    height: 1px;
+    border: 1px solid #dddddd;
+}
+
+.items .item-product-5 .item-text hr {
+    width: 55px;
+    height: 2px;
+    background-color: #cdcdcd;
+    margin-bottom: 15px;
+    position: absolute;
+    left: 16%;
+    content: "";
+    top: 69%;
+}
+
+.items .item-product-6 hr:nth-child(1) {
+    width: 61px;
+    height: 1px;
+    border: 1px solid #dddddd;
+    margin-bottom: 15px;
+    position: absolute;
+    left: 28.5%;
+    content: "";
+    top: 84%;
+}
+
+.item-product-6 .item-hover hr:nth-of-type(2) {
+    position: absolute;
+    top: 84%;
+    left: 44%;
+    width: 61px;
+    height: 1px;
+    border: 1px solid #dddddd;
+}
+
+.items .item-product-6 .item-text hr {
+    width: 55px;
+    height: 2px;
+    background-color: #cdcdcd;
+    margin-bottom: 15px;
+    position: absolute;
+    left: 36.5%;
+    content: "";
+    top: 69%;
+}
+
+.items .item-product-7 hr:nth-child(1) {
+    width: 59px;
+    height: 1px;
+    border: 1px solid #dddddd;
+    margin-bottom: 15px;
+    position: absolute;
+    left: 49%;
+    content: "";
+    top: 84%;
+}
+
+.item-product-7 .item-hover hr:nth-of-type(2) {
+    position: absolute;
+    top: 84%;
+    left: 64.25%;
+    width: 62px;
+    height: 1px;
+    border: 1px solid #dddddd;
+}
+
+.items .item-product-7 .item-text hr {
+    width: 55px;
+    height: 2px;
+    background-color: #cdcdcd;
+    margin-bottom: 15px;
+    position: absolute;
+    left: 57%;
+    content: "";
+    top: 69%;
+}
+
+.items .item-product-8 hr:nth-child(1) {
+    width: 61px;
+    height: 1px;
+    border: 1px solid #dddddd;
+    margin-bottom: 15px;
+    position: absolute;
+    left: 69.25%;
+    content: "";
+    top: 84%;
+}
+
+.item-product-8 .item-hover hr:nth-of-type(2) {
+    position: absolute;
+    top: 84%;
+    left: 84.75%;
+    width: 62px;
+    height: 1px;
+    border: 1px solid #dddddd;
+}
+
+.items .item-product-8 .item-text hr {
+    width: 55px;
+    height: 2px;
+    background-color: #cdcdcd;
+    margin-bottom: 15px;
+    position: absolute;
+    left: 77.5%;
+    content: "";
+    top: 69%;
+}
+
+.load-text {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.load-text h3 {
+    color: #595959;
+    text-transform: uppercase;
+    font-family: Lato, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 2.5px;
+}
+
+.load-text h3 span {
+    color: silver;
+    font-size: 30px;
+    margin-right: 15px;
+}
