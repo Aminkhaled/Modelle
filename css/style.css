@@ -549,7 +549,9 @@ Products
 }
 
 /*
-items-1
+=======================
+   items-1
+=======================
 */
 .items-1 {
     margin-top: 60px;
@@ -679,6 +681,12 @@ items-1
     top: 69%;
 }
 
+/*
+======================
+Load Text
+======================
+*/
+
 .load-text {
     text-align: center;
     padding-top: 30px;
@@ -698,6 +706,26 @@ items-1
     font-size: 30px;
     margin-right: 15px;
 }
+
+/*
+======================
+Category
+======================
+*/
+
+#last-view .view-text {
+    text-align: center;
+
+}
+
+#last-view .view-text h2 {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: #b2b2b2;
+    font-size: 40px;
+    font-weight: 100;
+}
+
 
 #category {
     background-color: white;
@@ -753,15 +781,42 @@ items-1
     color: #3f3f3f;
 }
 
-#last-view .view-text {
-    text-align: center;
+/*
+======================
+Modella logo
+======================
+*/
+
+#model-logo {
+    padding: 30px 0;
 
 }
 
-#last-view .view-text h2 {
-    text-transform: uppercase;
-    font-family: sans-serif;
-    color: #b2b2b2;
-    font-size: 40px;
-    font-weight: 100;
+.model-logo-img {
+    text-align: center;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.model-logo-img:before {
+    content: "";
+    width: 46%;
+    position: absolute;
+    top: 49%;
+    left: -1%;
+    height: 1px;
+    background-color: silver;
+    border: 1px;
+}
+
+.model-logo-img:after {
+    content: "";
+    width: 46%;
+    right: -11px;
+    position: absolute;
+    top: 49%;
+    height: 1px;
+    background-color: silver;
+    border: 1px;
 }
