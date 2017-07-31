@@ -26,6 +26,9 @@ section{
     padding-bottom: 10px;
 }
 
+a {
+    text-decoration: none;
+}
 /*
 =====================
 lang section
@@ -694,4 +697,71 @@ items-1
     color: silver;
     font-size: 30px;
     margin-right: 15px;
+}
+
+#category {
+    background-color: white;
+    padding-top: 2px;
+    padding-bottom: 50px;
+}
+
+#category h2 {
+    color: #9b9b9b;
+    font-size: 40px;
+    padding-left: 80px;
+}
+
+#category ul {
+    padding-left: 300px
+
+}
+
+#category ul li {
+    list-style: none;
+    float: left;
+}
+
+#category ul li a {
+    text-decoration: none;
+    margin-right: 100px;
+    font-family: Lato, sans-serif;
+    color: #b2b2b2;
+    text-transform: uppercase;
+}
+
+#category ul li a:hover,
+#category ul li a:focus,
+#category ul li a:active {
+    color: #3bbca5;
+}
+
+#last-view .items {
+    width: 92%;
+    margin: 0 auto;
+    padding: 30px 20px 20px 20px;
+}
+
+#last-view .items .item-product {
+    width: 18%;
+    margin-left: 15px;
+    overflow: hidden;
+}
+
+#last-view .items .item-product hr {
+    width: 60px;
+    height: 2px;
+    color: #3f3f3f;
+}
+
+#last-view .view-text {
+    text-align: center;
+
+}
+
+#last-view .view-text h2 {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: #b2b2b2;
+    font-size: 40px;
+    font-weight: 100;
 }
