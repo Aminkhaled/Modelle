@@ -820,3 +820,122 @@ Modella logo
     background-color: silver;
     border: 1px;
 }
+
+/*
+===============
+info section
+*/
+#info {
+    padding: 50px 70px 10px 100px;
+}
+
+.info-item {
+    float: left;
+    width: 25%;
+}
+
+.info-item h2 {
+    color: #595959;
+    font-family: sans-serif;
+    position: relative;
+    left: 0;
+    top: 0;
+    text-transform: uppercase;
+}
+
+.info-item h2:after {
+    position: absolute;
+    width: 250px;
+    height: 2px;
+    background-color: #d6d6d6;
+    content: "";
+    top: 140%;
+    left: 0;
+}
+
+.info-item h3 {
+    color: #595959;
+    font-family: sans-serif;
+}
+
+.info-item .address p {
+    padding-bottom: 5px;
+    color: #9b9b9b;
+}
+
+.info-item .icons li {
+    float: left;
+    margin-right: 87px;
+    list-style: none;
+    margin-left: -42px;
+}
+
+.info-item .icons li a {
+    color: #6f6f6f;
+    text-decoration: none;
+}
+
+.holiday {
+    padding-bottom: 10px;
+}
+
+.holiday div {
+    display: inline-block;
+}
+
+.holiday .holiday-text h4 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #848484;
+    font-size: 12px;
+    position: relative;
+    margin-bottom: -42px;
+    top: -40px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.holiday .holiday-text span {
+    color: silver;
+    padding-left: 40px
+}
+
+.info-item .services li {
+    list-style: none;
+    text-align: left;
+    padding-bottom: 10px;
+
+}
+
+.info-item .services li a {
+    color: #9b9b9b;
+}
+
+.info-item .services li a:hover,
+.info-item .services li a:active,
+.info-item .services li a:focus {
+    color: #3bbca5;
+}
+
+/*
+=============
+payment section
+=============
+*/
+
+#payment {
+    padding-top: 10px;
+    background-color: white;
+}
+
+#payment ul {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#payment ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
